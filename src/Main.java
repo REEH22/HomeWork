@@ -161,7 +161,7 @@ public class Main {
         if (age1 >= 18 && age1 <= 24) {
             System.out.println("нужно ходить в университет");
         }
-        if (age1 >= 24) {
+        if (age1 > 24) {
             System.out.println("нужно ходить на работу");
         }
         System.out.println("Задание 5 ");
@@ -190,12 +190,13 @@ public class Main {
         int two = 469;
         int three = 934;
         if (one >= two && one >= three) {
-            System.out.println("максимальное число в переменной one равняется "+one);
+            System.out.println("максимальное число в переменной one равняется " + one);
         } else if (two >= three) {
             System.out.println("Максимальное число в переменной two равняется " + two);
         } else {
-            System.out.println("максимальное число в переменной three равняется "+ three);
+            System.out.println("максимальное число в переменной three равняется " + three);
         }
+
     }
 
 }
