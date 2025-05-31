@@ -129,5 +129,73 @@ public class Main {
         float newYearKristin = newKristin * year;
         float rKristin = newYearKristin - yearKristin;
         System.out.println("Кристина теперь получает " + newKristin + " рублей.Годовой доход вырос на " + rKristin + " рублей.");
+        System.out.println("Задание 1 ");
+        byte age = 19;
+        if (age >= 18) {
+            System.out.println(" вы совершеннолетний ");
+        } else {
+            System.out.println(" вы недостигли совершеннолетия,нужно немного подождать");
+        }
+        System.out.println("Задание 2 ");
+        byte temperature = 4;
+        if (temperature >= 5) {
+            System.out.println(" Сегодня тепло,можно идти без шапки ");
+        } else {
+            System.out.println(" На улице холодно,ужно надеть шапку ");
+        }
+        System.out.println("Задание 3");
+        byte speed = 74;
+        if (speed >= 60) {
+            System.out.println(" если скорость более 60км/ч,то придется заплатить штраф");
+        } else {
+            System.out.println(" если скорость не привышает 60км/ч то можно ездить спокойно");
+        }
+        System.out.println("Задание 4 ");
+        byte age1 = 19;
+        if (age1 >= 2 && age1 <= 6) {
+            System.out.println("нужно ходить в детский сад");
+        }
+        if (age1 >= 7 && age1 <= 17) {
+            System.out.println("нужно ходить в школу");
+        }
+        if (age1 >= 18 && age1 <= 24) {
+            System.out.println("нужно ходить в университет");
+        }
+        if (age1 >= 24) {
+            System.out.println("нужно ходить на работу");
+        }
+        System.out.println("Задание 5 ");
+        byte childAre = 8;
+        if (childAre < 5) {
+            System.out.println("не может кататься на атракционах");
+        }
+        if (childAre >= 5 && childAre < 14) {
+            System.out.println("может кататься только в сопровождении взрослого. Если взрослого нет тогда кататься нельзя");
+        }
+        if (childAre >= 14) {
+            System.out.println("может кататься без сопровождения взрослого");
+        }
+        System.out.println("Задание 6 ");
+        byte SSK = 99;
+        if (SSK < 60) {
+            System.out.println("есть сидячие места");
+        }
+        if (SSK < 102 && SSK > 60) {
+            System.out.println("остались только стоячие места");
+        } else {
+            System.out.println("мест больше нет");
+        }
+        System.out.println("Задание 7 ");
+        int one = 746;
+        int two = 469;
+        int three = 934;
+        if (one >= two && one >= three) {
+            System.out.println("максимальное число в переменной one равняется "+one);
+        } else if (two >= three) {
+            System.out.println("Максимальное число в переменной two равняется " + two);
+        } else {
+            System.out.println("максимальное число в переменной three равняется "+ three);
+        }
     }
+
 }
