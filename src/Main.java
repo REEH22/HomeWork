@@ -197,10 +197,10 @@ public class Main {
             System.out.println("максимальное число в переменной three равняется " + three);
         }
         System.out.println("задание 1 ");
-        int a = 1;
-        if (a == 0) {
+        int clientOS = 1;
+        if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (a == 1) {
+        } else if (clientOS == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
         System.out.println("задание 2 ");
@@ -263,7 +263,6 @@ public class Main {
                 System.out.println("Осень");
                 break;
             default:
-                System.out.println("Неверный номер месяца");
         }
 
     }
