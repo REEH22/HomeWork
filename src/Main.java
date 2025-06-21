@@ -264,7 +264,54 @@ public class Main {
                 break;
             default:
         }
-
-    }
+        System.out.println("задание 1 ");
+        for (int cycle1 = 1; cycle1 <= 10; cycle1 = cycle1 + 1) {
+            System.out.println(cycle1);
+        }
+        System.out.println("задание 2 ");
+        for (int cycle2 = 10; cycle2 >= 1; cycle2 = cycle2 - 1) {
+            System.out.println(cycle2);
+        }
+        System.out.println("задание 3 ");
+        for (int cycle3 = 0; cycle3 <= 17; cycle3 = cycle3 + 2) {
+            System.out.println(cycle3);
+        }
+        System.out.println("задание 4");
+        for (int cycle4 = 10; cycle4 >= -10; cycle4 = cycle4 - 1) {
+            System.out.println(cycle4);
+        }
+        System.out.println("задание 5 ");
+        for (int leapYear = 1904; leapYear <= 2096; leapYear = leapYear + 4) {
+            System.out.println(leapYear + " год является високосным ");
+        }
+        System.out.println("задание 6 ");
+        for (int cycle5 = 7; cycle5 <= 98; cycle5 = cycle5 + 7) {
+            System.out.println(cycle5);
+        }
+        System.out.println("задание 7 ");
+        for (int cycle6 = 1; cycle6 <= 512; cycle6 = cycle6 * 2) {
+            System.out.println(cycle6);
+        }
+        System.out.println("задание 8 ");
+        int savings1 = 29000;
+        int total1 = 0;
+        for (int savings = 0; savings < 12; savings++) {
+            total1 = total1 + savings1;
+            System.out.println("месяц " + savings + " итого " + total1);
+        }
+        System.out.println("задача 9 ");
+        int savings2 = 29000;
+        int total2 = 0;
+        for (int savings3 = 0; savings3 < 12; savings3++) {
+            total2 = total2 + total2 / 100;
+            total2 = total2 + savings2;
+            System.out.println("Месяц " + savings3 + " сумма накопленийравна " + total2 + " рублей ");
+        }
+        System.out.println("задание 10 ");
+        int namber = 2;
+        for (int multiplier = 1; multiplier <=10; multiplier++) {
+            System.out.println(namber + "*"+multiplier+"="+namber*multiplier);
+        }
+        }
 
 }
